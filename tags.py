@@ -4,7 +4,7 @@ import tkinter.font as tkFont
 class App:
     def __init__(self, root):
         #setting title
-        root.title("Visual TK 5 PCEU")
+        root.title("undefined")
         #setting window size
         width=600
         height=500
@@ -14,40 +14,26 @@ class App:
         root.geometry(alignstr)
         root.resizable(width=False, height=False)
 
-        GButton_406=tk.Button(root)
-        GButton_406["bg"] = "#01aaed"
+        GButton_783=tk.Button(root)
+        GButton_783["anchor"] = "nw"
+        GButton_783["bg"] = "#1a64c4"
         ft = tkFont.Font(family='Times',size=10)
-        GButton_406["font"] = ft
-        GButton_406["fg"] = "#000000"
-        GButton_406["justify"] = "center"
-        GButton_406["text"] = "visualtk.com"
-        GButton_406.place(x=210,y=70,width=149,height=30)
-        GButton_406["command"] = self.GButton_406_command
+        GButton_783["font"] = ft
+        GButton_783["fg"] = "#000000"
+        GButton_783["justify"] = "center"
+        GButton_783["text"] = "https://themetaxmas20.pages.dev/TheMetaXmas"
+        GButton_783.place(x=160,y=400,width=295,height=58)
+        GButton_783["command"] = self.GButton_783_command
 
-        GMessage_319=tk.Message(root)
+        GMessage_139=tk.Message(root)
         ft = tkFont.Font(family='Times',size=10)
-        GMessage_319["font"] = ft
-        GMessage_319["fg"] = "#333333"
-        GMessage_319["justify"] = "center"
-        GMessage_319["text"] = "Super STARS GEEKING 4 PC WITH Python!!!!!!!"
-        GMessage_319.place(x=90,y=80,width=390,height=314)
+        GMessage_139["font"] = ft
+        GMessage_139["fg"] = "#333333"
+        GMessage_139["justify"] = "center"
+        GMessage_139["text"] = "https://themetaxmas20.pages.dev/TheMetaXmas"
+        GMessage_139.place(x=160,y=90,width=259,height=172)
 
-        GButton_307=tk.Button(root)
-        GButton_307["bg"] = "#90f090"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_307["font"] = ft
-        GButton_307["fg"] = "#fad400"
-        GButton_307["justify"] = "left"
-        GButton_307["text"] = "Lets Geekit!!!"
-        GButton_307["relief"] = "flat"
-        GButton_307.place(x=180,y=270,width=268,height=109)
-        GButton_307["command"] = self.GButton_307_command
-
-    def GButton_406_command(self):
-        print("command")
-
-
-    def GButton_307_command(self):
+    def GButton_783_command(self):
         print("command")
 
 if __name__ == "__main__":

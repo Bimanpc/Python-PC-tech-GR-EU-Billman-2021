@@ -14,26 +14,33 @@ class App:
         root.geometry(alignstr)
         root.resizable(width=False, height=False)
 
-        GButton_783=tk.Button(root)
-        GButton_783["anchor"] = "nw"
-        GButton_783["bg"] = "#1a64c4"
+        GButton_213=tk.Button(root)
+        GButton_213["bg"] = "#f0f0f0"
         ft = tkFont.Font(family='Times',size=10)
-        GButton_783["font"] = ft
-        GButton_783["fg"] = "#000000"
-        GButton_783["justify"] = "center"
-        GButton_783["text"] = "https://themetaxmas20.pages.dev/TheMetaXmas"
-        GButton_783.place(x=160,y=400,width=295,height=58)
-        GButton_783["command"] = self.GButton_783_command
+        GButton_213["font"] = ft
+        GButton_213["fg"] = "#000000"
+        GButton_213["justify"] = "center"
+        GButton_213["text"] = "https://sourceforge.net/projects/autoscreen/"
+        GButton_213.place(x=80,y=310,width=337,height=143)
+        GButton_213["command"] = self.GButton_213_command
 
-        GMessage_139=tk.Message(root)
+        GLabel_274=tk.Label(root)
         ft = tkFont.Font(family='Times',size=10)
-        GMessage_139["font"] = ft
-        GMessage_139["fg"] = "#333333"
-        GMessage_139["justify"] = "center"
-        GMessage_139["text"] = "https://themetaxmas20.pages.dev/TheMetaXmas"
-        GMessage_139.place(x=160,y=90,width=259,height=172)
+        GLabel_274["font"] = ft
+        GLabel_274["fg"] = "#333333"
+        GLabel_274["justify"] = "center"
+        GLabel_274["text"] = "ScreenCapture"
+        GLabel_274.place(x=100,y=80,width=70,height=25)
 
-    def GButton_783_command(self):
+        GLabel_540=tk.Label(root)
+        ft = tkFont.Font(family='Times',size=10)
+        GLabel_540["font"] = ft
+        GLabel_540["fg"] = "#333333"
+        GLabel_540["justify"] = "center"
+        GLabel_540["text"] = "Win10/11"
+        GLabel_540.place(x=100,y=90,width=70,height=25)
+
+    def GButton_213_command(self):
         print("command")
 
 if __name__ == "__main__":
